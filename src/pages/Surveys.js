@@ -90,13 +90,13 @@ function Surveys() {
 
     return (
         <>
-            <Grid container justifyContent={"center"} alignItems={"center"}>
+            <Grid container >
 
-                <Grid xl={12} paddingTop={"2%"} paddingBottom={"2%"} justifyContent={"center"} alignItems={"center"}>
+                <Grid xs={12} md={12} xl={12} paddingTop={"2%"} paddingBottom={"2%"} justifyContent={"center"} alignItems={"center"}>
                     <h1 style={{textAlign: "center"}}>{title ? title : "No survey category selected."}</h1>
                 </Grid>
 
-                <Grid xl={6}>
+                <Grid xs={12} md={12} xl={6}>
 
                         <SurveySelector title="Adult Questions" data={[
                             { name: "chl", items: [...chl] },
@@ -155,7 +155,7 @@ function Surveys() {
 
                 </Grid>
 
-                <Grid xl={6}>
+                <Grid xs={12} md={12} xl={6}>
 
                         <SurveySelector title="Child Questions" data={[
                             { name: "his", items: [...his] },
@@ -203,7 +203,7 @@ function Surveys() {
 
                 </Grid>
 
-                <Grid xl={12}>
+                <Grid xs={12} md={12} xl={12}>
                     
                     <Survey model={survey} />
 
