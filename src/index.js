@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import 'survey-core/defaultV2.min.css';
+import 'survey-core/defaultV2.css';
 
 // import { Model } from "survey-core";
 // import { Survey } from "survey-react-ui";
